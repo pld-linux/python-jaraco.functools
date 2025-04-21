@@ -3,7 +3,7 @@
 %bcond_without	doc	# Sphinx documentation
 %bcond_with	tests	# unit tests (fail for python2 because of top jaraco module local vs system location mismatch)
 %bcond_without	python2 # CPython 2.x module
-%bcond_without	python3 # CPython 3.x module
+%bcond_with	python3 # CPython 3.x module
 
 Summary:	Functools like those found in stdlib
 Summary(pl.UTF-8):	Functools podobne do tych z biblioteki standardowej
